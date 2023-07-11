@@ -1,0 +1,46 @@
+pitanja:
+		1. Koji je hemijski simbol srebra? Ag
+		2. Koja je najmanja ptica na svijetu?  Pčelinji kolibri
+		3. Koliko ima igrača u vaterpolo ekipi? sedam
+		4.Tko je bio BBC-jeva 'Sportska ličnost godine' 2001. godine? David Beckham
+		5. U kojoj dryavi se nalazi Koloseum?  Italija
+		6. u kojoj dryavi se nalayi Kip slobode - Sjedinjene Američke Države
+		7. Iz koje mitologije je Pandorina kutija? -grcke
+		8. Koji grad okružuje Vatikan? rim
+		9. Što znači H u H2O? vodik
+		10. Koja yemlja ima najduyu obalu -kanada
+
+		11. U filmu 'Glup i Gluplji', Jim Carrey je glumio Lloyda - tko je glumio Harryja? Jeff Daniels(david Spade, jeff daniels,Mike myers)
+		12. S kojom se biljkom pripravlja pesto? bosiljak (ponudjeni origano,korijander,timljan,bosiljak
+		13. Koje ptice mogu okrenuti glavu za čak 270 stupnjeva?  sove (ponudjeno golubovi, sove,slavuji)
+		14. Kako se na spanskom kaye pet- cinco (ponudjeni quinto, cinq, quinique,cinco)
+		15. Koje godine je rodjen William Shakespeare- 1564
+		16. koje godine je bio kraj prvog svjetskog rata  1918
+		17. koje godine je bio kraj drugog svjetskog rata 1945
+		18. Koje godine je potonuo Titanic? 1912
+		19.  Gdje je na svijetu izložena Mona Lisa Leonarda da Vincija? Louvre, Pariz, Francuska
+		20. Koji planet je najbliži Suncu? merkur
+
+PITANJA NA O
+"O@Koji je hemijski simbol srebra?@Ag",
+"O@Koja je najmanja ptica na svijetu?@Pcelinji kolibri",
+"O@Koliko ima igraca u vaterpolo ekipi?@sedam",
+"O@U kojoj drzavi se nalazi Koloseum?@Italija",
+"O@Sta ynaci H u H2O?@vodik",
+"O@Koja zemlja ima najduzu obalu?@Kanada",
+"O@U kojoj drzavi se nalazi Kip slobode?@Sjedinjene Američke Drzave",
+"O@Koji grad okruzuje Vatikan?@Rim",
+"O@Iz koje mitologije je Pandorina kutija?@Grcke",
+"O@Ko je bio BBC-jeva 'Sportska licnost godine' 2001. godine?@David Beckham",
+
+PITANJA NA I
+"I@U filmu 'Glup i Gluplji', Jim Carrey je glumio Lloyda - tko je glumio Harryja?@David Spade@Jeff Daniels@Mike Myers@Niko od navedenih@Jeff Daniels"
+"I@S kojom biljkom se pravi pesto?@Origano@Korijanden@Timljan@Bosiljak@Bosiljak"
+"I@Koje ptice mogu okrenuti glavu ya cak 270 stepeni?@Sove@Golubovi@Slavuji@Nista od navedenog@Sove"
+"I@Kako se na spanskom kaze pet?@Quinto@Cinq@Quinique@Cinco@Cinco"
+"I@Koje godine je rodjen William Shakespeare?@1564@1574@1565@1572@1564"
+"I@Koje godine je bio kraj prvog svjetskog rata?@1918@1917@1919@1915@1918"
+"I@Koje godine je bio kraj drugog svjetskog rata?@1945@1946@1947@1948@1945"
+"I@Koje godine je potonuo Titanic?@1912@1910@1925@1911@1912"
+"I@Koji je najblizi planet Suncu?@Merkur@Venera@Jupiter@Saturn@Merkur"
+"I@Gdje je izlozena Mona Lisa?@Francuska@Italija@Srbija@Nista od navedenog@Francuska"

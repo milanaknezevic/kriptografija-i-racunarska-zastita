@@ -1,0 +1,9 @@
+V	230414215405Z		01	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=SOS
+V	230414215916Z		02	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=Dalibor
+V	230414220143Z		03	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=Dea
+V	230415172422Z		04	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=Milivoj
+V	230415173557Z		05	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=Milka
+R	230415180205Z	220415180410Z,cessationOfOperation	06	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=Radenko
+R	230415192228Z	220415193243Z,cessationOfOperation	07	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=kurac
+V	230416102804Z		08	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=username1
+V	230416140650Z		09	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=Milorad

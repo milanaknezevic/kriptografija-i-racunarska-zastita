@@ -1,0 +1,5 @@
+DEKRIPCIJA
+openssl aes-128-ecb -d -in enkriptovano.txt -out izlaz.txt -k sigurnost -base64
+ENKRIPCIJA
+openssl aes-128-ecb -in izlaz.txt -out enkriptovano.txt -k ksigurnost -base64
+

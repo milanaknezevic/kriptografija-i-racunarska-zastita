@@ -1,0 +1,2 @@
+V	230414193448Z		01	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=CA1
+V	230414193610Z		02	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_MilanaKnezevic/CN=CA2

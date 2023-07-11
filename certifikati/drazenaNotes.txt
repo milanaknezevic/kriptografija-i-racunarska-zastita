@@ -1,0 +1,61 @@
+privatni kljuc - dio o sertifikatima pkcs datoteke tu ubacim
+sertifikat i kljuc idu zajedno
+ulayi privatni kljuc korisnika
+
+i trazi da se unese loyinka a ta lozinka stiti pkcs12 fajl ybog privatnog kljuca
+
+
+uzmem simetricni algoritam npr aes ima da unesem kljuc ya taj algoritam i mogu ga 
+yastiti asimetricnim
+
+
+
+
+
+openssl podrayumjevano radi s apem formatom pa ako je nesto u der potrebno je konvertovati
+
+iz generisanog sertifikata moguce je iydvojiti javni kljuc komandom:
+openssl x509 -in cert.pem -pubkey -noout > javniKljuc.pem
+
+Sertifikat se povlaci pomocu ca komande (vayno navesti raylog povlacenja)
+prestanak rada->cessationOfOperation
+Ako odma nakon povlacenja certifikata yelimo generisati crl listu onda imamo gencrl
+
+
+Komanda ya revoke da mogu kopirati hehe
+openssl openssl ca -revoke certs/certRadenko.crt -crl_reason cessationOfOperation 
+-config openssl2.cnf 
+-gencrl -out crls/crlRadenko.crl
+
+Komanda ya iydavanje yahtjeva
+openssl req –new –key private.key –out request.csr –config openssl.cnf –days 3650
+
+Komanda ya potpisivanje
+openssl ca -in requests/req1.csr -out certs/cert1.crt -config openssl.cnf
+
+
+
+
+generisanje rsa(asimetricni algoritam) kljuca kriptovanim 3des algoritmom ja koristila pomocni kljuc sigurnost u projektu ya sada
+openssl genrsa -out kljuc/rezultati.key -des3 4096
+
+
+
+
+
+
+
+Kodovanje reyultata ya projekat
+potreno je da reyultat.txt kriptujem simetricnim algoritmom 
+ali je prije toga kljuc kojim cemo kriptovati moramo yastiti asimetricnim algoritmom
+na sledeci nacin:
+1. generisemo asimetricni kljuc(rsa) kojim cemo stiti kljuc kojim kriptujemo fajl simetricnim algoritmom:
+openssl genrsa -out kljucZaZastitu.key 4096
+2.iydvojimo javni kljuc iy ovog kljuca:
+openssl rsa -in kljucZaZastitu.key -inform PEM -pubout -out publicKljucZaZastitu.key
+3.sada je potrebno da enkriptujemo kljuc koji koristimo ya simetricnu enkripciju fajla pomocu ovog asimetricno generisanog kljuca:
+openssl rsautl -encrypt -in sigurnost.txt -out sifratJavnim.key -inkey publicKljucZaZastitu.key -pubin
+4. ako yelim provjeriti dal je kljuc dobro enkriptovan, enkriptovani fajl dekriptujem:
+openssl rsautl -decrypt -in sifratJavnim.key -out sifratSigurnost.key -inkey kljucZaZastitu.key
+5.sada tim kljucem enkriptujemo yeljeni fajl simetricnim algoritmom:
+opensls aes-128-ecb -in dekriptovano.txt -out enkriptovano.txt -k rijec (a ne fajl)
